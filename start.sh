@@ -11,7 +11,8 @@ function usage() {
 }
 
 conf=config.ini
-bin=./example/helloworld
+bin=./example/Makefile
+##./example/helloworld: No such file or directory
 
 while getopts "c:b:o:h" args
 do
